@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="../letrest-ui.css"/>
+  </head>
+  <body ng-app="Letrest" ng-controller="mainCtrl as Main">
+
+    <h1>{{Main.message}}</h1>
+    <div lr-show-when-logged>User logged</div>
+    <div lr-hide-when-logged>User is not logged</div>
+
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/angular-cookies/angular-cookies.min.js"></script>
+    <script src="../bower_components/angular-resource/angular-resource.min.js"></script>
+
+    <script src="../letrest-ui.min.js"></script>
+    <script src="demo.js"></script>
+  </body>
+</html>
