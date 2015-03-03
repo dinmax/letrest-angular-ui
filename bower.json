@@ -1,7 +1,7 @@
 {
   "name": "letrest-angular-ui",
   "license": "MIT",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "ignore": [
     ".gitignore",
     "README.md"
@@ -14,7 +14,7 @@
   "devDependencies": {},
   "main": [
     "letrest-ui.min.js",
-    "letrest-ui.css"
+    "letrest-ui.min.css"
   ],
   "resolutions": {
     "angular": "1.3.x"
