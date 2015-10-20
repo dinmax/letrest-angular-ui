@@ -1,17 +1,19 @@
 {
   "name": "letrest-angular-ui",
   "license": "MIT",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "ignore": [
     ".gitignore",
     "README.md"
   ],
   "dependencies": {
     "angular": "1.3.x",
-    "angular-cookies": "~1.2.23",
-    "angular-resource": "~1.3.12"
+    "angular-cookies": "1.3.x",
+    "angular-resource": "1.3.x"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "angular-mocks": "1.3.x"
+  },
   "main": [
     "letrest-ui.min.js",
     "letrest-ui.min.css"
