@@ -1,7 +1,7 @@
 {
   "name": "letrest-angular-ui",
   "license": "MIT",
-  "version": "1.0.15",
+  "version": "1.0.17",
   "ignore": [
     ".gitignore",
     "README.md"
